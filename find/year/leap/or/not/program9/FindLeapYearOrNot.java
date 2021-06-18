@@ -12,13 +12,13 @@ public class FindLeapYearOrNot {
 	
 		if(b==0)
 		{
-			value=true;
+			value = true;
 			
 			System.out.println(a + "  It's a Leap Year");
 	    }
 		else
 		{
-			value=false;
+			value = false;
 			System.out.println(a + "  It's not a Leap Year");
 		}
 		
