@@ -2,9 +2,6 @@ package cricket.commentary.week2.program42;
 
 import java.util.Scanner;
 
-import area.of.shape.hexagon.week2.program41.Rectangle;
-import area.of.shape.hexagon.week2.program41.Shape;
-import area.of.shape.hexagon.week2.program41.Square;
 
 public class MainDelivery {
 
