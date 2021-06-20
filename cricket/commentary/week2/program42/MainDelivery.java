@@ -23,15 +23,19 @@ public class MainDelivery {
 
 		if (deliveryDetails == 1) {
 
+			Scanner sc1 = new Scanner(System.in);
+			
+			System.out.println("Enter Bowler Name : " );
+			
+			bowlerName = sc1.nextLine();
+			
+			Scanner sc2 = new Scanner(System.in);
+
+			System.out.println("Enter Batsman Name : " );
+			
+			batsmanName = sc1.nextLine();
+			
 			Delivery delivery1 = new Delivery();
-
-			bowlerName = "Ravichandran Aswin";
-
-			batsmanName = "Virat Kohli";
-
-			System.out.println("Enter Bowler Name : " + bowlerName);
-
-			System.out.println("Enter Batsman Name : " + batsmanName);
 
 			delivery1.displayDeliveryDetails(bowlerName, batsmanName);
 
